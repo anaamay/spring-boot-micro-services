@@ -1,0 +1,15 @@
+server:
+   port: 8084
+spring:
+   application:
+      name: ril-fb-payment-service
+   datasource:
+      url: jdbc:mysql://localhost:3306/payment-db
+      username: root
+      password: admin
+   jpa:
+      hibernate:
+         ddl-auto: update
+      properties:
+         hibernate:
+            dialect: org.hibernate.dialect.MySQL5Dialect
