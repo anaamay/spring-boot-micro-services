@@ -1,0 +1,10 @@
+spring:
+   application:
+      name: ril-fb-api-gateway
+eureka:
+   client:
+      service-url:
+         default-zone: http://localhost:8761/eureka
+     
+server:
+    port: 8765        
